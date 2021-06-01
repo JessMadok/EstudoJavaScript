@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+
+<script>
+	
+	var anoInicial = 1500;
+	var media = 28;
+	var anoAtual = 2020;
+	var anos = anoAtual - anoInicial;
+	var geracoes = Math.round(anos/media);
+
+	function pulaLinha(){
+
+		document.write("<br>");
+
+	}
+
+	function mostra(frase){
+
+		document.write(frase + geracoes + " gerações.");
+		pulaLinha();
+	}
+
+	mostra("Se passaram ");
+
+</script>
